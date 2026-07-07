@@ -32,8 +32,7 @@ Recomputes `anchor_hash` from `canonical_body` and checks it matches.
 
 ## Status
 
-Scaffold. Live anchor publication runs from the production heartbeat
-(GitHub Actions / cloud cron) and is **not yet enabled** — that step needs the
-Actions secret + cron wiring, which is intentionally out of scope for the
-Week-1 foundation build. `anchors/EXAMPLE.json` is a dry-run sample only and is
-marked hypothetical (it anchors a backfilled, hypothetical ledger event).
+Baseline anchors are published from the verified private regime-engine ledger.
+`anchors/EXAMPLE.json` remains a hypothetical sample; dated files under
+`anchors/YYYY-MM-DD.json` are production anchors. Live heartbeat publication is
+handled by the private regime-engine workflow when a same-day ledger event exists.
