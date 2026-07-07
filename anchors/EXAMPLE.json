@@ -1,0 +1,8 @@
+{
+  "ref_date": "2020-02-27",
+  "event_count": 1,
+  "anchor_hash": "6cabaabe3bd452185c0ce9e0a9bfc9004a6ffbba1bcce7993ef66a39c5d666ba",
+  "canonical_body": "{\"event_hashes\":[\"a9b3bdce334cc784eee2c853528a89f263a28c17a3d1b8381fa41a331ac19a2c\"],\"ref_date\":\"2020-02-27\"}",
+  "hypothetical": true,
+  "note": "DRY-RUN EXAMPLE \u2014 anchors a backfilled hypothetical ledger event. Not a production anchor."
+}
